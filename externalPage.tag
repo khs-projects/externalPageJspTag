@@ -1,12 +1,7 @@
 <%--
 ///// include the following two lines in a jsp page to use this tag //////////
-<%@ include file="/WEB-INF/tiles/include-for-forms.jsp"%>
 <%@ taglib prefix="mvm" tagdir="/WEB-INF/tags" %>
---%>
-<%--
-<%@tag import="com.gargoylesoftware.htmlunit.html.DomNode"%>
-<%@tag import="com.gargoylesoftware.htmlunit.html.HtmlPage"%>
-<%@tag import="com.gargoylesoftware.htmlunit.WebClient"%>
+<mvm:externalPage src="http://ljv5555.github.io/scvideo" selector="img"/>
 --%>
 <%@tag import="javax.xml.parsers.DocumentBuilderFactory"%>
 <%@tag import="javax.xml.parsers.DocumentBuilder"%>
